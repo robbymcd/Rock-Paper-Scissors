@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jura"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="title">
+        <h1>Rock Paper Scissors</h1>
+    </div>
+    <div class="options">
+        <div class="user">
+            <h1 class="user-comp-title">User</h1>
+            <p class="user-score">Score: 0</p>
+            <div class="user-options">
+                <div class="user-rock">
+                    <i class="material-icons" style="font-size: 30px;">circle</i>
+                    <button id="rock">Rock</button>
+                </div>
+                <div class="user-paper">
+                    <i class="material-icons" style="font-size: 30px;">description</i>
+                    <button id="paper">Paper</button>
+                </div>
+                <div class="user-scissors">
+                    <i class="material-icons" style="font-size: 30px;">content_cut</i>
+                    <button id="scissors">Scissors</button>
+                </div>
+            </div>
+        </div>
+        <div class="comp">
+            <h1 class="user-comp-title">Computer</h1>
+            <p class="comp-score">Score: 0</p>
+            <div class="comp-options">
+                <div class="comp-rock">
+                    <i class="material-icons" style="font-size: 30px;">circle</i>
+                    <button id="rock-comp">Rock</button>
+                </div>
+                <div class="comp-paper">
+                    <i class="material-icons" style="font-size: 30px;">description</i>
+                    <button id="paper-comp">Paper</button>
+                </div>
+                <div class="comp-scissors">
+                    <i class="material-icons" style="font-size: 30px;">content_cut</i>
+                    <button id="scissors-comp">Scissors</button>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div class="play-again">
+        <button id="play-again">Play Again</button>
+    </div>
+    <div class="lower-half">
+        <div id="results">First Person to 5 Wins!<br>Good Luck!</div>
+        <div id="score"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
