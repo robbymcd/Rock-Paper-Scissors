@@ -171,13 +171,8 @@ button {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 650px) {
     .title {
         text-align: center;
-    }
-
-    html, body {
-        max-width: 100%;
-        overflow-x: hidden;
     }
 }
